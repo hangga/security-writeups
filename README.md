@@ -88,6 +88,6 @@ All research published here follows responsible disclosure practices.
 
 ## Connect
 
-* Medium: [https://medium.com/@hanggaaji](https://hangga-aji-sayekti.medium.com/)
+* Medium: [Hangga Aji Sayekti](https://hangga-aji-sayekti.medium.com/)
 * Portfolio: [hangga.web.id](https://hangga.web.id)
-* LinkedIn: [https://linkedin.com/in/hanggaaji](https://www.linkedin.com/in/hanggaajisayekti/)
+* LinkedIn: [Hangga Aji Sayekti](https://www.linkedin.com/in/hanggaajisayekti/)
