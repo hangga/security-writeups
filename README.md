@@ -1,93 +1,70 @@
 # Security Writeups
 
-A curated collection of real-world security research, vulnerability disclosures, and application security case studies.
+A curated collection of real-world application security research, vulnerability disclosures, and technical writeups.
 
-Most findings were discovered through manual testing, source analysis, and business logic exploration rather than automated scanning.
+These cases focus on vulnerabilities uncovered through manual testing, source code analysis, and business logic exploration—not automated scanning.
 
----
+## Topics
 
-## About
+- Broken Access Control
+- IDOR / BOLA
+- Business Logic Vulnerabilities
+- Authentication & Authorization
+- API Security
 
-I'm an Application Security Engineer and Security Researcher focused on:
+## Writeups
 
-* Broken Access Control
-* IDOR / BOLA
-* Business Logic Vulnerabilities
-* Authentication & Authorization Issues
-* API Security
-* Secure Coding
+### The MFA Bypass That Wasn't an MFA Problem
+**Authentication / Authorization**
 
-This repository serves as an index of my public security writeups.
-
----
-
-## Published Writeups
-
-### 1. The MFA Bypass That Wasn't an MFA Problem
-
-**Category:** Authentication / Authorization
-
-A case study showing how an apparent MFA bypass ultimately traced back to broken API authorization controls. The issue highlights the difference between authentication and authorization failures and why MFA alone cannot protect insecure backend logic.
+An investigation into an apparent MFA bypass that ultimately revealed broken API authorization, demonstrating why strong authentication cannot compensate for flawed backend access control.
 
 🔗 https://cybersecuritywriteups.com/the-mfa-bypass-that-wasnt-an-mfa-problem-a-lesson-in-broken-api-authorization-b6f0fbd4154f
 
 ---
 
-### 2. From Quantity Manipulation to Negative Shipping Costs
+### How I Found an Email Verification Bypass on an AI Freelance Platform
+**Authentication**
 
-**Category:** Business Logic Vulnerability
+A real-world email verification bypass caused by inconsistent state management between the registration and email verification flows, allowing accounts to be created with unverified email addresses.
 
-An e-commerce business logic flaw that allowed manipulation of purchase calculations through unexpected quantity values, ultimately leading to negative shipping costs and incorrect order totals.
+🔗 https://infosecwriteups.com/how-i-found-an-email-verification-bypass-on-an-ai-freelance-platform-6ad76663b658
+
+---
+
+### From Quantity Manipulation to Negative Shipping Costs
+**Business Logic**
+
+A business logic flaw in an e-commerce application that allowed manipulation of order calculations through unexpected quantity values, resulting in negative shipping costs.
 
 🔗 https://cybersecuritywriteups.com/from-quantity-manipulation-to-negative-shipping-costs-a-business-logic-flaw-in-an-e-commerce-73f6c80b9b17
 
 ---
 
-### 3. I Was Removed From the Organization, But My Access Still Worked
+### I Was Removed From the Organization, But My Access Still Worked
+**Broken Access Control**
 
-**Category:** Broken Access Control
-
-A practical example of improper authorization enforcement where access persisted even after organizational membership was revoked, demonstrating common access lifecycle management failures.
+A case study showing how access remained valid after organizational membership was revoked, highlighting common authorization and access lifecycle failures.
 
 🔗 https://cybersecuritywriteups.com/i-was-removed-from-the-organization-but-my-access-still-worked-lessons-from-a-broken-access-151158d95f7d
 
 ---
 
-### 4. From a Simple Profile Endpoint to a 100k+ User IDOR on HackerRank
+### From a Simple Profile Endpoint to a 100k+ User IDOR on HackerRank
+**IDOR / BOLA**
 
-**Category:** IDOR / BOLA
-
-A real-world account access vulnerability discovered through a seemingly harmless profile endpoint that exposed access to more than 100,000 user profiles.
+A seemingly harmless profile endpoint led to an authorization flaw affecting more than 100,000 user accounts.
 
 🔗 https://cybersecuritywriteups.com/from-a-simple-profile-endpoint-to-a-100k-user-idor-on-hackerrank-6f9b6e6fe746
 
----
-
-## Key Areas of Research
-
-| Area                  | Examples                                   |
-| --------------------- | ------------------------------------------ |
-| Broken Access Control | Privilege Escalation, Authorization Bypass |
-| IDOR / BOLA           | Object Reference Manipulation              |
-| Business Logic        | Pricing, Workflow, Validation Flaws        |
-| API Security          | Authorization, Data Exposure               |
-| Authentication        | MFA & Session Management Issues            |
-
----
-
 ## Responsible Disclosure
 
-All research published here follows responsible disclosure practices.
+All writeups follow responsible disclosure practices and exclude sensitive information that could impact users or organizations.
 
-* No user accounts were abused.
-* No automated harvesting was performed.
-* No data was retained beyond validation requirements.
-* Findings were reported to affected organizations whenever applicable.
+## About Me
 
----
+I'm an Application Security Engineer and Security Researcher with a focus on application security, API security, business logic vulnerabilities, and authorization flaws.
 
-## Connect
-
-* Medium: [Hangga Aji Sayekti](https://hangga-aji-sayekti.medium.com/)
-* Portfolio: [hangga.web.id](https://hangga.web.id)
-* LinkedIn: [Hangga Aji Sayekti](https://www.linkedin.com/in/hanggaajisayekti/)
+- 🌐 Portfolio: https://hangga.web.id
+- ✍️ Medium: https://hangga-aji-sayekti.medium.com
+- 💼 LinkedIn: https://www.linkedin.com/in/hanggaajisayekti/
