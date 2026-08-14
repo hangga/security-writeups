@@ -1,0 +1,67 @@
+[
+  {
+    id: 1,
+    title: "The MFA Bypass That Wasn't an MFA Problem",
+    categories: [
+      "Authentication",
+      "Authorization"
+    ],
+    publisher: "cybersecuritywriteups.com",
+    publisherLogo: "images/cswp.png",
+    description: "An investigation into an apparent MFA bypass that ultimately revealed broken API authorization, demonstrating why strong authentication cannot compensate for flawed backend access control.",
+    link: "https://cybersecuritywriteups.com/the-mfa-bypass-that-wasnt-an-mfa-problem-a-lesson-in-broken-api-authorization-b6f0fbd4154f",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*bqykjQYx_VCY90K77iSErA.png"
+  },
+  {
+    id: 2,
+    title: "How I Found an Email Verification Bypass on an AI Freelance Platform",
+    categories: [
+      "Authentication",
+      "State Management"
+    ],
+    publisher: "infosecwriteups.com",
+    publisherLogo: "images/infosec.png",
+    description: "A real-world email verification bypass caused by inconsistent state management between the registration and email verification flows, allowing accounts to be created with unverified email addresses.",
+    link: "https://infosecwriteups.com/how-i-found-an-email-verification-bypass-on-an-ai-freelance-platform-6ad76663b658",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*CW9tvPsJWDyi2UjzsWgWrw.png"
+  },
+  {
+    id: 3,
+    title: "From Quantity Manipulation to Negative Shipping Costs",
+    categories: [
+      "Business Logic",
+      "E-commerce"
+    ],
+    publisher: "cybersecuritywriteups.com",
+    publisherLogo: "images/cswp.png",
+    description: "A business logic flaw in an e-commerce application that allowed manipulation of order calculations through unexpected quantity values, resulting in negative shipping costs.",
+    link: "https://cybersecuritywriteups.com/from-quantity-manipulation-to-negative-shipping-costs-a-business-logic-flaw-in-an-e-commerce-73f6c80b9b17",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Pw1mYx7kRn94SXzw06ViJg.png"
+  },
+  {
+    id: 4,
+    title: "I Was Removed From the Organization, But My Access Still Worked",
+    categories: [
+      "Broken Access Control",
+      "Lifecycle"
+    ],
+    publisher: "cybersecuritywriteups.com",
+    publisherLogo: "images/cswp.png",
+    description: "A case study showing how access remained valid after organizational membership was revoked, highlighting common authorization and access lifecycle failures.",
+    link: "https://cybersecuritywriteups.com/i-was-removed-from-the-organization-but-my-access-still-worked-lessons-from-a-broken-access-151158d95f7d",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*VakYYm-YWRjw_dAnno9e4Q.png"
+  },
+  {
+    id: 5,
+    title: "From a Simple Profile Endpoint to a 100k+ User IDOR on HackerRank",
+    categories: [
+      "IDOR",
+      "BOLA"
+    ],
+    publisher: "cybersecuritywriteups.com",
+    publisherLogo: "images/cswp.png",
+    description: "A seemingly harmless profile endpoint led to an authorization flaw affecting more than 100,000 user accounts.",
+    link: "https://cybersecuritywriteups.com/from-a-simple-profile-endpoint-to-a-100k-user-idor-on-hackerrank-6f9b6e6fe746",
+    image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*j4zjrV5yuFfsO2L-h7SYYg.png"
+  }
+]
