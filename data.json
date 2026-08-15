@@ -6,7 +6,8 @@
       "Authentication",
       "Authorization"
     ],
-    "publisher": "cybersecuritywriteups.com",
+    "publisher": "Cybersecurity Writeups",
+    "publisher-url": "https://cybersecuritywriteups.com",
     "publisherLogo": "images/cswp.png",
     "description": "An investigation into an apparent MFA bypass that ultimately revealed broken API authorization, demonstrating why strong authentication cannot compensate for flawed backend access control.",
     "link": "https://cybersecuritywriteups.com/the-mfa-bypass-that-wasnt-an-mfa-problem-a-lesson-in-broken-api-authorization-b6f0fbd4154f",
@@ -19,7 +20,8 @@
       "Authentication",
       "State Management"
     ],
-    "publisher": "infosecwriteups.com",
+    "publisher": "InfoSec Writeups",
+    "publisher-url": "https://infosecwriteups.com",
     "publisherLogo": "images/infosec.png",
     "description": "A real-world email verification bypass caused by inconsistent state management between the registration and email verification flows, allowing accounts to be created with unverified email addresses.",
     "link": "https://infosecwriteups.com/how-i-found-an-email-verification-bypass-on-an-ai-freelance-platform-6ad76663b658",
@@ -32,7 +34,8 @@
       "Business Logic",
       "E-commerce"
     ],
-    "publisher": "cybersecuritywriteups.com",
+    "publisher": "Cybersecurity Writeups",
+    "publisher-url": "https://cybersecuritywriteups.com",
     "publisherLogo": "images/cswp.png",
     "description": "A business logic flaw in an e-commerce application that allowed manipulation of order calculations through unexpected quantity values, resulting in negative shipping costs.",
     "link": "https://cybersecuritywriteups.com/from-quantity-manipulation-to-negative-shipping-costs-a-business-logic-flaw-in-an-e-commerce-73f6c80b9b17",
@@ -45,7 +48,8 @@
       "Broken Access Control",
       "Lifecycle"
     ],
-    "publisher": "cybersecuritywriteups.com",
+    "publisher": "Cybersecurity Writeups",
+    "publisher-url": "https://cybersecuritywriteups.com",
     "publisherLogo": "images/cswp.png",
     "description": "A case study showing how access remained valid after organizational membership was revoked, highlighting common authorization and access lifecycle failures.",
     "link": "https://cybersecuritywriteups.com/i-was-removed-from-the-organization-but-my-access-still-worked-lessons-from-a-broken-access-151158d95f7d",
@@ -58,7 +62,8 @@
       "IDOR",
       "BOLA"
     ],
-    "publisher": "cybersecuritywriteups.com",
+    "publisher": "Cybersecurity Writeups",
+    "publisher-url": "https://cybersecuritywriteups.com",
     "publisherLogo": "images/cswp.png",
     "description": "A seemingly harmless profile endpoint led to an authorization flaw affecting more than 100,000 user accounts.",
     "link": "https://cybersecuritywriteups.com/from-a-simple-profile-endpoint-to-a-100k-user-idor-on-hackerrank-6f9b6e6fe746",
@@ -71,7 +76,8 @@
       "Sensitive Data Exposure",
       "PII"
     ],
-    "publisher": "osintteam.blog",
+    "publisher": "OSINT Team",
+    "publisher-url": "https://osintteam.blog",
     "publisherLogo": "images/osint.jpg",
     "description": "A simple Wayback Machine recon uncovered archived pages exposing an estimated 44,560 job applicant emails, highlighting the risks of historical data exposure.",
     "link": "https://osintteam.blog/how-a-simple-wayback-search-revealed-44-000-exposed-job-applicant-emails-c6c2c361985e",
