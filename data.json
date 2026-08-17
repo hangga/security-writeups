@@ -84,7 +84,7 @@
     "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ivCr7oz5mk3_l2WWlZ3rXA.png"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "I Changed One URL Parameter and Found PII Exposed Across 19,990 User Profiles",
     "categories": [
       "Broken Access Control",
