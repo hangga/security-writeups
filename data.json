@@ -82,5 +82,21 @@
     "description": "A simple Wayback Machine recon uncovered archived pages exposing an estimated 44,560 job applicant emails, highlighting the risks of historical data exposure.",
     "link": "https://osintteam.blog/how-a-simple-wayback-search-revealed-44-000-exposed-job-applicant-emails-c6c2c361985e",
     "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ivCr7oz5mk3_l2WWlZ3rXA.png"
+  },
+  {
+    "id": 6,
+    "title": "I Changed One URL Parameter and Found PII Exposed Across 19,990 User Profiles",
+    "categories": [
+      "Broken Access Control",
+      "Sensitive Information Exposure",
+      "PII",
+      "API Authorization Flaw"
+    ],
+    "publisher": "InfoSec Writeups",
+    "publisher-url": "https://infosecwriteups.com",
+    "publisherLogo": "images/infosec.png",
+    "description": "How a missing authorization check turned a profile API into a data exposure risk.",
+    "link": "https://infosecwriteups.com/how-an-unauthenticated-api-endpoint-exposed-19-990-user-records-ecfe395cf94a",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*IHwLX2AaNip8Qte_EIigKw.png"
   }
 ]
