@@ -89,7 +89,6 @@
     "categories": [
       "Broken Access Control",
       "Sensitive Information Exposure",
-      "PII",
       "API Authorization Flaw"
     ],
     "publisher": "InfoSec Writeups",
